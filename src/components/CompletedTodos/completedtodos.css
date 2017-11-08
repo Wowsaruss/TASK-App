@@ -1,0 +1,12 @@
+.parentComplete {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid white;
+    width: 370px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
