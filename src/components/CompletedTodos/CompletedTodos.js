@@ -14,7 +14,6 @@ class CompletedTodos extends Component {
               <h1>{todos}</h1>
               <div>
                 <button>Delete</button>
-                <button disabled >Complete</button>
             </div>
           </div>
         )
