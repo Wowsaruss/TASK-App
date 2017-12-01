@@ -9,17 +9,19 @@ class CompletedTodos extends Component {
   render() {
     const showCompleted = this.props.completedTodos.map((todos, i) => {
         return (
-          <div key={i} className='eachItem'>
+          <div key={i} className='eachItem animated fadeIn'>
               <h1>{todos}</h1>
+              <hr/>
               <div>
-                <button>Delete</button>
-            </div>
+                <button className='delete-completed' >Delete</button>
+              </div>
           </div>
         )
     })
     return (
       <div className='parentParent' >
         <div className='parentComplete' >
+          <div className='task-box-title' >Finished</div>
           {showCompleted}
         </div>
       </div>

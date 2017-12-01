@@ -50,10 +50,18 @@ class App extends Component {
   render() {
     return (
       <div>
-          <div className='hero-image'>
-            <Todos handleSubmit={this.handleSubmit}/>
-            <ListItems todo={this.state.todo} completeTodo={this.completeTodo} deleteTodo={this.deleteTodo}/>
-            <CompletedTodos completedTodos={this.state.completedTodos}/>
+          <div>
+            <Todos
+              handleSubmit={this.handleSubmit}
+            />
+            <ListItems
+              todo={this.state.todo}
+              completeTodo={this.completeTodo}
+              deleteTodo={this.deleteTodo}
+            />
+            <CompletedTodos
+              completedTodos={this.state.completedTodos}
+            />
           </div>
       </div>
     );

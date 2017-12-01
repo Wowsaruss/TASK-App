@@ -1,22 +1,24 @@
 body {
   background-color: black;
-  text-align: center;
-  margin: 0px;
-  padding: 0px; }
-
-.hero-image {
   background-image: url("https://farm5.staticflickr.com/4582/38036784054_6825196b3e_o.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  text-align: center;
+  margin: 0px;
+  padding: 0px; }
+
+hr {
+  padding: 0px;
+  margin: 0px; }
 
 .parentComplete {
-  padding: 20px;
+  font-family: 'Waiting for the Sunrise', cursive;
+  padding: 0px;
   margin: 20px;
-  border: 2px solid white;
-  width: 370px;
+  width: 409px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -24,7 +26,11 @@ body {
   align-items: center;
   align-content: stretch; }
 
+.delete-completed {
+  width: 100%; }
+
 .parentParent {
+  font-family: 'Waiting for the Sunrise', cursive;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -34,9 +40,10 @@ body {
   align-content: stretch; }
 
 .taskParent {
-  padding: 20px;
-  border: 2px solid white;
-  width: 370px;
+  font-family: 'Waiting for the Sunrise', cursive;
+  padding: 0px;
+  margin: 20px;
+  width: 409px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -44,26 +51,43 @@ body {
   align-items: center;
   align-content: stretch; }
 
+.task-box-title {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.475);
+  color: #f9f1da;
+  width: 100%; }
+
 .eachItem {
-  width: 300px;
-  box-shadow: 0px 5px 20px #000000;
+  width: 409px;
   background-color: white;
-  margin: 10px; }
+  margin: 0px;
+  z-index: 1; }
+
+.complete-button {
+  width: 50%;
+  height: 100%; }
+
+.delete-button-tasks {
+  width: 50%;
+  height: 100%; }
 
 .title {
-  color: black;
-  font-size: 100px;
+  font-family: 'Waiting for the Sunrise', cursive;
+  color: #f9f1da;
+  font-size: 150px;
   font-weight: 100px; }
 
 .formWrap {
-  margin: 30px; }
+  margin: 0px; }
 
 .inputBox {
+  font-family: 'Waiting for the Sunrise', cursive;
   width: 400px;
   height: 50px;
   font-size: 30px;
   text-align: center;
-  background-color: white;
+  background-color: #ebebeb;
   color: #1d1d1d; }
 
 .submitBtn {

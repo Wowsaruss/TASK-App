@@ -12,12 +12,12 @@ class Todos extends Component {
       
         <div>
             <div className="inputParent">
-                    <div className="title">TASK</div>
+                    <div className="title animated fadeInDownBig">TASK</div>
                     <div className='formWrap' >
                     <div>
-                        <input className="inputBox" onChange={(e)=> {this.setState({ userInput: e.target.value })}} placeholder='Add new task' value={this.state.userInput}/>
+                        <input className="inputBox animated fadeInDown" onChange={(e)=> {this.setState({ userInput: e.target.value })}} placeholder='Add new TASK' value={this.state.userInput}/>
                     </div>
-                    <button className='submitBtn' onClick={e=>{this.props.handleSubmit(e, this.state.userInput); this.setState({userInput: ''})}}>Add</button>
+                    <button className='submitBtn animated flipInX' onClick={e=>{this.props.handleSubmit(e, this.state.userInput); this.setState({userInput: ''})}}>Add</button>
                     </div>
             </div>
         </div>

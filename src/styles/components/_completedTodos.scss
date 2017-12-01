@@ -1,12 +1,15 @@
 .parentComplete {
-    padding: 20px;
+    font-family: 'Waiting for the Sunrise', cursive;
+    padding: 0px;
     margin: 20px;
-    border: 2px solid white;
-    width: 370px;
+    width: 409px;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
 	align-content: stretch;
+}
+.delete-completed {
+    width: 100%;
 }

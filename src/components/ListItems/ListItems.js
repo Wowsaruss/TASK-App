@@ -9,11 +9,12 @@ class ListItems extends Component {
   render() {
     const displayList = this.props.todo.map((todos, i)=>{
         return (
-          <div key={i} className='eachItem'>
+          <div key={i} className='eachItem animated slideInDown'>
             <h1>{todos}</h1>
+            <hr/>
             <div>
-              <button onClick={()=>{this.props.completeTodo(todos, i)}}>Complete</button>
-              <button onClick={()=>{this.props.deleteTodo(todos, i)}}>Delete</button>
+              <button className='complete-button' onClick={()=>{this.props.completeTodo(todos, i)}}>Complete</button>
+              <button className='delete-button-tasks' onClick={()=>{this.props.deleteTodo(todos, i)}}>Delete</button>
             </div>
           </div>
         )
@@ -21,6 +22,7 @@ class ListItems extends Component {
     return (
         <div className='parentParent' >
             <div className='taskParent' >
+              <div className='task-box-title' >Task's</div>
                 {displayList}
             </div>
         </div>
