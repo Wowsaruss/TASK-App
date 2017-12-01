@@ -1,0 +1,8 @@
+@import 'global';
+@import 'mixins';
+@import 'variables';
+
+@import './components/_app.scss';
+@import './components/_completedTodos.scss';
+@import './components/_listItems.scss';
+@import './components/_todos.scss';

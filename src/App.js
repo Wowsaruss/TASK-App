@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import Todos from './components/Todos/Todos.js';
 import ListItems from './components/ListItems/ListItems.js';
 import CompletedTodos from './components/CompletedTodos/CompletedTodos.js';
@@ -51,7 +50,7 @@ class App extends Component {
   render() {
     return (
       <div>
-          <div>
+          <div className='hero-image'>
             <Todos handleSubmit={this.handleSubmit}/>
             <ListItems todo={this.state.todo} completeTodo={this.completeTodo} deleteTodo={this.deleteTodo}/>
             <CompletedTodos completedTodos={this.state.completedTodos}/>

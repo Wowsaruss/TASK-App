@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+  text-align: center;
+  margin: 0px;
+  padding: 0px; }
+
+.hero-image {
+  background-image: url("https://farm5.staticflickr.com/4582/38036784054_6825196b3e_o.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parentComplete {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid white;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch; }
+
+.parentParent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: stretch; }
+
+.taskParent {
+  padding: 20px;
+  border: 2px solid white;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch; }
+
+.eachItem {
+  width: 300px;
+  box-shadow: 0px 5px 20px #000000;
+  background-color: white;
+  margin: 10px; }
+
+.title {
+  color: black;
+  font-size: 100px;
+  font-weight: 100px; }
+
+.formWrap {
+  margin: 30px; }
+
+.inputBox {
+  width: 400px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  background-color: white;
+  color: #1d1d1d; }
+
+.submitBtn {
+  width: 409px;
+  height: 30px;
+  background-color: #720000;
+  color: white; }

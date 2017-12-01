@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './completedtodos.css'
 
 class CompletedTodos extends Component {
       constructor() {
